@@ -1,0 +1,225 @@
+.fundo-tecnicos {
+    padding: 0;
+    border-bottom: none;
+    border-radius: 0;
+    min-height: 100vh;    
+    padding-top: 90px;
+    background-size: cover;
+    color: white;    
+}
+
+#wrapper {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.conteudo {
+    margin-left: 0;
+    margin-right: 0;
+    padding-left: 40px;
+    padding-bottom: 10px;
+    margin-bottom: 30px;
+    border-left: 1px solid white;
+    /* background-color: rgba(255, 255, 255, .2); */
+}
+.menu {
+    width: 300px;
+    padding-right: 40px;
+    padding-top: 0px;
+}
+.menu button {
+    text-align: left;
+    background-color: transparent;
+    border: none;
+    font-weight: 600;
+    font-size: 17px;
+    position: relative;
+    display: block;
+    margin-bottom: 20px;
+    padding-left: 40px;
+}
+.menu button:hover {
+    text-decoration: underline;
+}
+.menu button::before {
+    content: '';
+    background-image: url('../images/02/icone-play.png');
+    position: absolute;
+    left: 0px;
+    height: 31px;
+    width: 31px;
+    top: 45%;
+    transform: translateY(-50%);
+}
+h4 {
+    margin-top: 40px;
+    margin-bottom: 15px;
+    color: white;
+}
+h2, h3 {
+    color: white;
+}
+.video-interativo {
+    height: 381px;
+    width: 899px;
+    max-width: 100%;
+    background-color: transparent;
+    background-image: url('../images/02/img-video.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    border: none;
+}
+.lab-optico {
+    height: 381px;
+    width: 899px;
+    max-width: 100%;
+    background-color: transparent;
+    background-image: url('../images/03/img-video.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    border: none;
+}
+.video-surfacagem {
+    height: 381px;
+    width: 899px;
+    max-width: 100%;
+    background-color: transparent;
+    background-image: url('../images/04/img-video.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    border: none;
+}
+.video-polimento {
+    height: 381px;
+    width: 435px;
+    max-width: 100%;
+    background-color: transparent;
+    background-image: url('../images/05/img-polimento.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    border: none;
+    margin: 10px;
+}
+.video-desblocagem {
+    height: 381px;
+    width: 435px;
+    max-width: 100%;
+    background-color: transparent;
+    background-image: url('../images/05/img-desblocagem.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    border: none;
+    margin: 10px;
+}
+.simulador-lensometro {
+    width: 900px;
+    height: 251px;
+    max-width: 100%;
+    background-color: transparent;
+    background-image: url('../images/05/img-simulador.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    border: none;
+    margin: 10px;
+}
+.videocast {
+    height: 381px;
+    width: 899px;
+    max-width: 100%;
+    background-color: transparent;
+    background-image: url('../images/06/img-videocast.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    border: none;
+}
+.simulador-software {
+    height: 251px;
+    width: 899px;
+    max-width: 100%;
+    background-color: transparent;
+    background-image: url('../images/07/img-simulador.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    border: none;
+}
+.tutorial-software {
+    height: 251px;
+    width: 899px;
+    max-width: 100%;
+    background-color: transparent;
+    background-image: url('../images/07/img-video.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    border: none;
+}
+.video-interativo:hover {
+    background-image: url('../images/02/img-video_hover.png');
+}
+.lab-optico:hover {
+    background-image: url('../images/03/img-video_hover.png');
+}
+.video-surfacagem:hover {
+    background-image: url('../images/04/img-video_hover.png');
+}
+.video-polimento:hover {
+    background-image: url('../images/05/img-polimento_hover.png');
+}
+.video-desblocagem:hover {
+    background-image: url('../images/05/img-desblocagem_hover.png');
+}
+.simulador-lensometro:hover {
+    background-image: url('../images/05/img-simulador_hover.png');
+}
+.videocast:hover {
+    background-image: url('../images/06/img-videocast_hover.png');
+}
+.simulador-software:hover {
+    background-image: url('../images/07/img-simulador_hover.png');
+}
+.tutorial-software:hover {
+    background-image: url('../images/07/img-video_hover.png');
+}
+/* WALLPAPERS */
+.bg-02 {
+    background-image: url('../images/02/bg.png');
+}
+.bg-03 {
+    background-image: url('../images/03/bg.png');
+}
+.bg-04 {
+    background-image: url('../images/04/bg.png');
+}
+.bg-05 {
+    background-image: url('../images/05/bg.png');
+}
+.bg-06 {
+    background-image: url('../images/06/bg.png');
+}
+.bg-07 {
+    background-image: url('../images/07/bg.png');
+}
+.modal-title {
+    color: #333;
+}
+video {
+    margin: auto;
+    background-color: #333;
+    width: 100%;
+    height: 260px;
+}
+@media (max-width:1000px) {
+    .conteudo {
+        border-left: none;
+        border-top: 1px solid white;
+        padding-top: 40px;
+    }
+}

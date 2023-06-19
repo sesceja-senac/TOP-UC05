@@ -1,0 +1,233 @@
+body {
+    background-image: url('../images/01/bg.jpg');
+    background-attachment: fixed;
+}
+
+figcaption {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+h3 {
+    margin-top: 60px;
+}
+
+h4 {
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+.modal-btn {
+    background-color: #c3c3c330;
+    border-radius: 20px;
+    border: none;
+    box-shadow: 3px 3px 3px black;
+    transition-duration: .1s;
+    max-width: 45%;
+    margin: 10px;
+}
+
+.modal-btn h4 {
+    color: black;
+}
+
+.modal-btn p {
+    font-size: 14px;
+}
+
+.modal-btn:hover {
+    transform: scale(1.01);
+    transition-duration: .1s;
+}
+
+.modal-btn img {
+    max-width: 100%;
+}
+
+.modal-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.painel1 {
+    background-image: url('../images/01/painel-clicavel-bg.png');
+    height: 541px;
+    width: 901px;
+    position: relative;
+}
+
+.bt-ponte {
+    background-image: url('../images/01/painel-clicavel-bt02.png');
+    right: 345px;
+    top: 88px;
+}
+
+.bt-plaquetas {
+    background-image: url('../images/01/painel-clicavel-bt05.png');
+    right: 379px;
+    top: 326px;
+}
+
+.bt-aro {
+    background-image: url('../images/01/painel-clicavel-bt06.png');
+    right: 600px;
+    top: 372px;
+}
+
+.bt-hastes {
+    background-image: url('../images/01/painel-clicavel-bt01.png');
+    right: 593px;
+    top: 88px;
+}
+
+.bt-charneira {
+    background-image: url('../images/01/painel-clicavel-bt03.png');
+    right: 142px;
+    top: 86px;
+}
+
+.bt-ponteiras {
+    background-image: url('../images/01/painel-clicavel-bt04.png');
+    right: 141px;
+    top: 357px;
+}
+
+.bt-painel1 {
+    height: 144px;
+    width: 162px;
+    border: none;
+    background-color: transparent;
+    background-repeat: no-repeat;
+    position: absolute;
+}
+
+.bt-ponte:hover {
+    background-image: url('../images/01/painel-clicavel-bt02_.png');
+    transform: scale(1.1);
+    transition: all 0.5s;
+}
+
+.bt-plaquetas:hover {
+    background-image: url('../images/01/painel-clicavel-bt05_.png');
+    transform: scale(1.1);
+    transition: all 0.5s;
+}
+
+.bt-aro:hover {
+    background-image: url('../images/01/painel-clicavel-bt06_.png');
+    transform: scale(1.1);
+    transition: all 0.5s;
+}
+
+.bt-hastes:hover {
+    background-image: url('../images/01/painel-clicavel-bt01_.png');
+    transform: scale(1.1);
+    transition: all 0.5s;
+}
+
+.bt-charneira:hover {
+    background-image: url('../images/01/painel-clicavel-bt03_.png');
+    transform: scale(1.1);
+    transition: all 0.5s;
+}
+
+.bt-ponteiras:hover {
+    background-image: url('../images/01/painel-clicavel-bt04_.png');
+    transform: scale(1.1);
+    transition: all 0.5s;
+}
+
+@media (max-width:1000px) {
+    .modal-btn {
+        max-width: 45%;
+    }
+}
+
+@media (max-width:768px) {
+    .painel1 {
+        display: flex;
+        background-image: unset;
+        height: unset;
+        width: unset;
+        position: unset;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        align-content: center;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .bt-painel1 {
+        height: 144px;
+        width: 162px;
+        border: none;
+        background-color: transparent;
+        background-repeat: no-repeat;
+        position: unset;
+    }
+
+    .bt-ponte {
+        background-image: url('../images/01/painel-clicavel-bt02-mobile.png');
+    }
+
+    .bt-plaquetas {
+        background-image: url('../images/01/painel-clicavel-bt05-mobile.png');
+    }
+
+    .bt-aro {
+        background-image: url('../images/01/painel-clicavel-bt06-mobile.png');
+    }
+
+    .bt-hastes {
+        background-image: url('../images/01/painel-clicavel-bt01-mobile.png');
+    }
+
+    .bt-charneira {
+        background-image: url('../images/01/painel-clicavel-bt03-mobile.png');
+    }
+
+    .bt-ponteiras {
+        background-image: url('../images/01/painel-clicavel-bt04-mobile.png');
+    }
+
+    .bt-ponte:hover {
+        background-image: url('../images/01/painel-clicavel-bt02_mobile.png');
+        transform: scale(1.1);
+        transition: all 0.5s;
+    }
+
+    .bt-plaquetas:hover {
+        background-image: url('../images/01/painel-clicavel-bt05_mobile.png');
+        transform: scale(1.1);
+        transition: all 0.5s;
+    }
+
+    .bt-aro:hover {
+        background-image: url('../images/01/painel-clicavel-bt06_mobile.png');
+        transform: scale(1.1);
+        transition: all 0.5s;
+    }
+
+    .bt-hastes:hover {
+        background-image: url('../images/01/painel-clicavel-bt01_mobile.png');
+        transform: scale(1.1);
+        transition: all 0.5s;
+    }
+
+    .bt-charneira:hover {
+        background-image: url('../images/01/painel-clicavel-bt03_mobile.png');
+        transform: scale(1.1);
+        transition: all 0.5s;
+    }
+
+    .bt-ponteiras:hover {
+        background-image: url('../images/01/painel-clicavel-bt04_mobile.png');
+        transform: scale(1.1);
+        transition: all 0.5s;
+    }
+
+    .modal-btn {
+        max-width: 100%;
+    }
+}
