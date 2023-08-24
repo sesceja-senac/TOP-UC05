@@ -27,6 +27,7 @@
   <link href="css/aos.css" type="text/css" rel="stylesheet">
   <link href="css/vertical-ui.css" type="text/css" rel="stylesheet">
   <link href="css/print.css" type="text/css" rel="stylesheet">
+  <link href="css/01.css" type="text/css" rel="stylesheet">
 
   <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
   <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -76,6 +77,9 @@
             <button data-toggle="modal" data-target="#modal-2">
               <i>Podcast</i>
             </button>
+            <button data-toggle="modal" data-target="#modal-3">
+              Descarte de Resíduos
+            </button>
           </div>
           <div class="conteudo container">
             <header class="no-print">
@@ -95,30 +99,549 @@
             <p>Neste conhecimento, você terá a oportunidade de explorar a aplicação dos princípios de segurança do
               trabalho na montagem dos óculos, bem como as melhores práticas para o descarte adequado de resíduos
               gerados nesse processo. </p>
-            <p>Clique ou toque para ouvir o <i>podcast</i>. </p>
-            <button data-toggle="modal" data-target="#modal-2" class="tutorial-software">
-            </button>
+            <p class="no-print">Clique ou toque para ouvir o <i>podcast</i>. </p>
+            <div class="row no-print">
+              <div class="col-lg-12">
+                <audio controls="">
+                  <source src="../conteudo/podcast/podcast_seguranca_no_trabalho.mp3" type="audio/mpeg">
+                  Your browser does not support the audio tag.
+                </audio>
+                <button class="bt-transcricao" aria-hidden="true" tabindex="-1" type="button" data-toggle="modal"
+                  data-target="#transcricao1"><img src="../conteudo/podcast/transcricao.png" style="width: 45px; border: none;"></button>
+              </div>
+            </div>
             <h4>Encerramento</h4>
             <p>Prepare-se para aprofundar seus conhecimentos a respeito de segurança do trabalho e descarte de resíduos
               na próxima etapa deste material.</p>
+            <iframe class="center-block" width="560" height="315"
+              src="https://www.youtube.com/embed/lWq0VS3X6qc?si=8Om4OgmAMXpybFc3" title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              allowfullscreen></iframe>
           </div>
         </div>
         <div class="modal fade" id="modal-2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
           <div class="modal-dialog " role="document">
-            <div class="modal-content">
+            <div class="modal-content no-print">
               <div class="modal-header">
                 <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span
                     aria-hidden="true">×</span></button>
                 <h4 class="modal-title" id="myModalLabel"><i>Podcast</i></h4>
               </div>
               <div class="modal-body">
-                <video></video>
+                <div class="row">
+                  <div class="col-lg-12">
+                    <audio controls="">
+                      <source src="../conteudo/podcast/podcast_seguranca_no_trabalho.mp3" type="audio/mpeg">
+                      Your browser does not support the audio tag.
+                    </audio>
+                    <button class="bt-transcricao" aria-hidden="true" tabindex="-1" type="button" data-toggle="modal"
+                      data-target="#transcricao1"><img src="../conteudo/podcast/transcricao.png" style="width: 45px; border: none;"></button>
+                  </div>
+                </div>
               </div>
               <div class="modal-footer">
                 <button type="button" class="btn btn-default" data-dismiss="modal">Fechar</button>
               </div>
             </div>
           </div>
+        </div>
+
+        <div class="modal fade" id="modal-3" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+          <div class="modal-dialog " role="document">
+            <div class="modal-content no-print">
+              <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span
+                    aria-hidden="true">×</span></button>
+                <h4 class="modal-title" id="myModalLabel"><i>Podcast</i></h4>
+              </div>
+              <div class="modal-body">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/lWq0VS3X6qc?si=8Om4OgmAMXpybFc3"
+                  title="YouTube video player" frameborder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                  allowfullscreen></iframe>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Fechar</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="modal fade" id="transcricao1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+          aria-live="polite" aria-atomic="true" aria-hidden="false">
+          <div class="modal-dialog" role="document">
+            <div class="modal-content no-print">
+              <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span
+                    aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title" id="myModalLabel">Transcrição</h4>
+              </div>
+              <div class="modal-body">
+                <p>Olá, estudantes! Eu sou tutor do Senac, do curso Técnico em Óptica, professor Tanski, e hoje
+                  falaremos
+                  novamente sobre segurança no trabalho aplicada à fabricação de lentes oftálmicas. Porém, traremos
+                  agora
+                  uma superespecialista, a nossa tutora, professora Jocieli da Silva. Jocieli, por favor, pode se
+                  apresentar?</p>
+                <h3>Jocieli</h3>
+                <p>Olá, pessoal, tudo bem? Eu sou a Jocieli. Eu sou, então, graduada em Engenharia de Produção pela
+                  Unisinos, especialista em Engenharia de Segurança do Trabalho pela Estácio, tenho mestrado em
+                  Engenharia
+                  de Produção e Sistemas aqui pela Unisinos e atualmente eu sou doutoranda em Engenharia de Produção lá
+                  pela USP. Eu trabalho como professora da área de segurança do trabalho há cerca de dois anos e atuo no
+                  Senac como tutora do curso de Segurança do Trabalho. Muito obrigada pelo convite, professor.</p>
+                <h3>Tanski</h3>
+                <p>Prazer!</p>
+                <h3>Tanski</h3>
+                <p>Muito legal que nosso primeiro <i>podcast</i> teve pessoas que são do mercado e que põem em prática
+                  todo o
+                  conhecimento que a professora, que é tutora, traz para desenvolvimento do profissional. E agora nós
+                  temos ela, que vai trazer as normas, as regras, as estratégias para que a empresa implemente. Como
+                  você
+                  definiria segurança do trabalho?</p>
+                <h3>Jocieli</h3>
+                <p>Então, segurança do trabalho são as ações que a gente promove no ambiente de trabalho, com o objetivo
+                  de
+                  reduzir e eliminar os riscos do ambiente de trabalho, que podem provocar algum tipo de doença ou
+                  acidente de trabalho. Então, a segurança nada mais é do que simplesmente as ações que a gente vai
+                  fazer
+                  todos os dias na empresa, com o objetivo de eliminar todo e qualquer risco do ambiente de trabalho e
+                  tornar ele seguro para garantir a integridade e a saúde do nosso trabalhador.</p>
+                <h3>Tanski</h3>
+                <p>A segunda pergunta que estava planejada já está mais ou menos dentro dessa primeira resposta. Por que
+                  então a segurança trabalho é tão importante?</p>
+                <h3>Jocieli</h3>
+                <p>Eu vou te trazer um dado aqui da Organização Internacional do Trabalho: só em 2022, a gente teve mais
+                  de
+                  6 mil acidentes de trabalho no Brasil e mais de 2.500 óbitos, ou seja, em média, a cada 3 horas e 47
+                  minutos, alguém perde a vida no ambiente de trabalho. E a cada 100 trabalhadores, ocorrem cerca de 7
+                  acidentes. A área da segurança do trabalho é a principal responsável por garantir que a gente tenha a
+                  redução desses números, que são tão dramáticos. Então, por isso que a gente tem que ter um olhar muito
+                  importante em relação à segurança. É através dos programas que a gente implementa, pela área da
+                  segurança, que a gente vai conseguir reduzir esses números, que ainda são muito significativos.</p>
+                <h3>Tanski</h3>
+                <p>Ficou a dúvida: o certo é segurança “no” trabalho ou segurança “do” trabalho?</p>
+                <h3>Jocieli</h3>
+                <p>Ambas têm o mesmo objetivo, que é reduzir todo e qualquer risco no ambiente de trabalho. O que a
+                  gente
+                  tem de diferente? Vai depender da literatura que tu estás olhando. Eu gosto mais da expressão
+                  segurança
+                  “do” trabalho, porque, quando a gente pensa em segurança “do” trabalho, a gente pensa “do” trabalho
+                  como
+                  uma área, assim como a contabilidade, a administração. Então tu falas que o profissional é formado em
+                  segurança “do” trabalho. Já segurança “no” trabalho seria única e exclusivamente as ações que a gente
+                  implementa no dia a dia. Então eu vou propor alguma melhoria de segurança “no” trabalho. Então acho
+                  que
+                  essa seria a principal diferença, mas segurança do trabalho e segurança no trabalho têm o mesmo
+                  objetivo, que é reduzir todo e qualquer risco que possa colocar a vida e a segurança do nosso
+                  trabalhador em risco.</p>
+                <h3>Tanski</h3>
+                <p>A gente fala da vida, mas às vezes pequenos danos também, não é?</p>
+                <h3>Jocieli</h3>
+                <p>Exatamente. Quando a gente fala em segurança, eu te trouxe aqui o número de mortes, mas eu nem quis
+                  te
+                  trazer o número de afastamentos, é gigantesco. Além disso, a gente também tem doenças que são
+                  irreversíveis. A gente pode falar de muitas aqui, pode falar de surdez, a gente pode falar de câncer,
+                  a
+                  gente pode falar de várias doenças que não têm cura e que o trabalhador vai ter que conviver com isso
+                  para o resto da sua vida. Então, quando eu falo de segurança, eu tenho que pensar não só no acidente
+                  que
+                  pode acontecer e vitimar a pessoa, mas também nos efeitos que isso vai trazer para a vida dela como um
+                  todo. Então por isso que, de novo, segurança é muito importante por conta disso, é alguém que está ali
+                  olhando e cuidando da tua vida.</p>
+                <h3> Tanski</h3>
+                <p>Nós falamos sobre segurança do trabalho e o nosso objetivo é o ramo óptico. Mas como é que é isso?
+                  Como
+                  é que são as leis? De forma geral, é só para o ramo óptico?</p>
+                <h3>Jocieli</h3>
+                <p>Não, de forma alguma. Segundo as nossas normas regulamentadoras, que são as legislações que permeiam
+                  a
+                  área da segurança, toda e qualquer empresa tem que ter programas de segurança do trabalho. Então é
+                  isso
+                  que a legislação define. Não é só no ramo óptico, não é só indústria. É toda e qualquer empresa que
+                  tenha profissionais regidos pela CLT deve obrigatoriamente atender às legislações e às ações de
+                  segurança. É obrigatório, não é uma escolha.</p>
+                <h3>Tanski</h3>
+                <p>Reforçando essa visão: nós, na óptica, quando pensamos em segurança no trabalho, pensamos na produção
+                  de
+                  lentes, na área industrial, na fabricação de armações. Mas o comércio também tem a prestação de
+                  serviços, também tem essa segurança no trabalho?</p>
+                <h3>Jocieli</h3>
+                <p>Com certeza. Todas as organizações, como eu já disse, têm essa obrigatoriedade em atender a esse ramo
+                  da
+                  segurança. O que acontece é que, em grandes empresas e indústrias, usualmente a gente tem uma área que
+                  cuida da segurança do trabalho. Então, a gente vê isso de forma mais estruturada, a gente acompanha os
+                  profissionais da segurança do trabalho fazendo capacitações, treinamentos. Em empresas menores, às
+                  vezes, a gente não tem esse profissional ali dentro o tempo todo. A gente não acompanha isso, mas não
+                  significa que ele não tem que atender, muito pelo contrário. Em empresas que não tenham os
+                  profissionais
+                  da área de segurança ali dentro, em tempo integral, a obrigatoriedade das ações dessa área é do
+                  empregador e dos empregados por ele designados.</p>
+                <p>Mas todas as leis, legislações, portarias continuam sendo as mesmas das grandes organizações. Não tem
+                  diferenciação alguma em relação a isso.</p>
+                <h3>Tanski</h3>
+                <p>Tu falou em norma regulamentadora, são as famosas NRs?</p>
+                <h3>Jocieli</h3>
+                <p>Exatamente. As normas regulamentadoras, as NRs, seriam a Bíblia da área da segurança do trabalho.
+                  Então,
+                  assim, muito se ouve e elas são corriqueiras. Hora e outra elas aparecem na mídia, então, todo mundo
+                  já
+                  ouviu falar de NR, são as nossas normas regulamentadoras, são aquilo que norteia os princípios e as
+                  melhorias da nossa área.</p>
+                <h3>Tanski</h3>
+                <p>E que tipo de formação tem que ter o profissional que traz essa construção do ambiente de segurança
+                  no
+                  trabalho?</p>
+                <h3>Jocieli</h3>
+                <p>Então, a gente tem a nossa NR-4, a nossa Norma Regulamentadora 4, que ela define quais são os
+                  profissionais que compõem o SESMT. O SESMT é o Serviço Especializado em Medicina e Segurança do
+                  Trabalho. Então, são diversos profissionais de diferentes formações que vão compor essa área. Ela vai
+                  ser composta por médico do trabalho, enfermeiro do trabalho, auxiliar técnico de enfermagem do
+                  trabalho,
+                  engenheiro de segurança do trabalho, assim como eu, e o técnico em segurança do trabalho. Esses são os
+                  profissionais do SESMT. A nossa Norma Regulamentadora 4 define que algumas organizações vão precisar
+                  compor o SESMT e outras não, e a quantidade de cada um desses profissionais que vai ser contratado vai
+                  depender do grau de risco da organização e do tamanho. Então, como eu já disse, algumas organizações,
+                  como são menores e têm um grau de risco menor, ou seja, chance de acontecer acidentes e doenças é
+                  menor,
+                  elas são desobrigadas de compor o SESMT, então elas não vão ter esses profissionais em tempo integral
+                  lá
+                  dentro da empresa, eles não vão ter esse núcleo, porque a legislação estabelece que só algumas
+                  organizações têm obrigatoriedade de compor esse SESMT. Então, sempre que a gente pensar nisso: “eu
+                  preciso ou não ter SESMT?”, aí a gente vai lá na NR-4 e vai ver qual é o grau de risco da empresa e o
+                  número de empregadores. E lá vai ter definido se ela precisa e quantos e quais desses profissionais
+                  ela
+                  vai ter que contratar para compor esse SESMT.</p>
+                <h3>Tanski</h3>
+                <p>Por mais que a gente saiba que tu não é uma especialista no ramo óptico, no teu olhar, quais os
+                  pontos
+                  mais críticos da segurança do trabalho para o profissional de óptica?</p>
+                <h3>Jocieli</h3>
+                <p>Então, vamos pensar que depende do ambiente no qual ele está inserido. Vai sempre depender de qual é
+                  o
+                  local onde ele está. Quando a gente pensa na produção, a gente tem um processo produtivo dos produtos,
+                  assim como qualquer outra empresa. Ali tu vai ter processos produtivos de usinagem, injeção, como
+                  qualquer outra organização. Então, ali dentro, vai ser importante que tu se preocupe com os riscos
+                  físicos que vão estar presentes ali, como o ruído, a vibração, o calor, e os riscos químicos. Eu diria
+                  que esses dois grupos são os mais importantes, porque tu vais ter produtos químicos, tu vais ter
+                  processo de pintura. Os químicos geram vapores, gases que podem ser inalados e que são muito
+                  prejudiciais à saúde do trabalhador. Além disso, os riscos físicos também: o ruído pode provocar
+                  cansaço, surdez com o passar do tempo. Então, eu teria um olhar mais crítico em relação a esses dois
+                  grupos. Já quando a gente fala de uma loja, uma prestadora de serviços, é possível que a gente não
+                  tenha
+                  esses grupos, não é? Porque as atividades são diferentes. Então, nesse caso, a gente deveria ter um
+                  olhar mais para os riscos ergonômicos desses trabalhadores que vão passar o dia todo em pé. Então a
+                  postura não é adequada muitas vezes, o local de trabalho não está adaptado para o trabalhador, a
+                  iluminação inadequada também é um risco ergonômico. A gente vai se preocupar também com os riscos de
+                  acidente que podem ocorrer nesse ambiente de trabalho: choque elétrico, algum incêndio. Então, a gente
+                  teria um olhar para esses dois grupos. Veja como diferencia os grupos que a gente vai analisar de
+                  acordo
+                  com o ambiente que a gente está inserido. Então, a segurança é muito interessante, e é óbvio que eu
+                  vou
+                  defender, do meu ponto de vista exatamente por conta disso, porque, dependendo do ambiente onde tu
+                  estas, tu tens uma mudança total nas ações que tu vais tomar e nas situações que tu vais observar, o
+                  que
+                  é muito significativo e muito interessante para nós.</p>
+                <h3>Tanski</h3>
+                <p>As estratégias acabam sendo dinâmicas de momento a momento, de etapa para etapa.</p>
+                <h3>Jocieli</h3>
+                <p> Exatamente, tu não vais ter um plano de trabalho fechado, “do modo que eu implantei aqui, agora eu
+                  vou
+                  sair daqui, eu vou na empresa do lado, a mesma empresa, o mesmo CNPJ, e eu vou fazer exatamente
+                  igual”.
+                  Não! Tu vais ter que ter um olhar diferente de acordo com aquele ambiente no qual tu vais estar
+                  inserido.</p>
+                <h3>Tanski</h3>
+                <p>Para minimizarmos os riscos, a gente tende a ter que usar os famosos EPIs e EPCs. Tu podes dizer para
+                  a
+                  gente o que são?</p>
+                <h3>Jocieli</h3>
+                <p>Posso sim, claro. Os EPIs e os EPCs nada mais são do que dispositivos que são criados com o objetivo
+                  de
+                  reduzir a chance de o risco acontecer e a consequência dele. Os EPIs, os equipamentos de proteção
+                  individual, são um dispositivo único, somente um trabalhador vai usar, então tu só vais proteger
+                  aquele
+                  trabalhador que estiver portando. Vamos pensar numa luva, por exemplo. Só quem vai se beneficiar do
+                  EPI
+                  é quem está usando. Já o EPC é o equipamento de proteção coletiva. Então, todos os trabalhadores que
+                  estejam naquele ambiente de trabalho onde tem um EPC vão ser protegidos por ele. Por exemplo, um
+                  extintor. Um extintor está protegendo todos os trabalhadores que estão ali naquele ambiente onde ele
+                  está. Essa é a principal diferença entre eles.</p>
+                <h3>Tanski</h3>
+                <p>Perfeito. Eu ouvi falar que, para uma boa execução do ambiente de segurança no trabalho, é preciso
+                  fazer
+                  um mapa de risco. Tu poderias descrever para a gente o que é isso?</p>
+                <h3>Jocieli</h3>
+                <p>O mapa de risco é uma representação gráfica do ambiente de trabalho e dos riscos que tem ali. Então,
+                  assim, tu vais fazer o levantamento dos riscos de acordo com os setores. Lembra que eu disse que, de
+                  acordo com a empresa, mudam os riscos? Mas, de acordo com os setores também, não é? Vamos pensar que
+                  na
+                  pintura não vai ter os mesmos riscos que no almoxarifado. Então tu vais fazer esse levantamento de
+                  riscos, depois, tu vais pegar a planta da empresa e tu vais desenhar esses riscos em cima, através de
+                  círculos. Os grupos de risco são cinco e cada um tem uma cor. No mapa de risco, tu vais desenhar um
+                  círculo de acordo com o risco presente naquele ambiente. Isso seria nosso mapa de risco, uma forma
+                  gráfica e fácil de a gente interpretar.</p>
+                <h3>Tanski</h3>
+                <p>Legal. E por fim, para a gente terminar as perguntas, como é que a gente pode então trazer a
+                  responsabilidade... De quem é a responsabilidade da prevenção de acidentes no ambiente de trabalho?
+                </p>
+                <h3>Jocieli</h3>
+                <p>A responsabilidade é de cada um de nós. Eu não posso jamais terceirizar a minha segurança para outra
+                  pessoa. Embora eu tenha um técnico, um SESMT, uma CIPA, um empregador que tem que promover a segurança
+                  no ambiente de trabalho, é minha responsabilidade cuidar da minha vida. Eu sou um pai, eu sou uma
+                  esposa, eu sou um filho. E, assim como eu dirijo no trânsito, assim como eu cuido dos acidentes
+                  domésticos, eu também tenho responsabilidade em prevenir os acidentes no ambiente de trabalho. A
+                  responsabilidade pela prevenção de acidentes é de cada um de nós.</p>
+                <h3>Tanski</h3>
+                <p>Muito legal!</p>
+                <p>Estivemos aqui então com a nossa superespecialista, tutora do curso TST do Senac, Jocieli da Silva,
+                  com
+                  quem conversamos sobre segurança do trabalho aplicada à fabricação de lentes oftálmicas. Muito prazer,
+                  foi muito bom. Fica à vontade de dar uma palavrinha final.</p>
+                <h3>Jocieli</h3>
+                <p>Gente, gostaria muito de agradecer o convite. Foi um prazer imenso estar aqui. Espero que nos
+                  encontremos em outras oportunidades. E lembrem sempre, pessoal: segurança todos os dias e em todos os
+                  lugares. Um grande abraço para todo mundo.</p>
+                <h3>Tanski</h3>
+                <p> Eu sou o professor Tanski e foi um prazer termos falado sobre esse tema tão importante: segurança no
+                  trabalho aplicada à óptica. Foi um prazer, pessoal.</p>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Fechar</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="acessivel print">
+          <h3>Transcrição do <i>Podcast</i></h3>
+          <p>Olá, estudantes! Eu sou tutor do Senac, do curso Técnico em Óptica, professor Tanski, e hoje
+            falaremos
+            novamente sobre segurança no trabalho aplicada à fabricação de lentes oftálmicas. Porém, traremos
+            agora
+            uma superespecialista, a nossa tutora, professora Jocieli da Silva. Jocieli, por favor, pode se
+            apresentar?</p>
+          <h3>Jocieli</h3>
+          <p>Olá, pessoal, tudo bem? Eu sou a Jocieli. Eu sou, então, graduada em Engenharia de Produção pela
+            Unisinos, especialista em Engenharia de Segurança do Trabalho pela Estácio, tenho mestrado em
+            Engenharia
+            de Produção e Sistemas aqui pela Unisinos e atualmente eu sou doutoranda em Engenharia de Produção lá
+            pela USP. Eu trabalho como professora da área de segurança do trabalho há cerca de dois anos e atuo no
+            Senac como tutora do curso de Segurança do Trabalho. Muito obrigada pelo convite, professor.</p>
+          <h3>Tanski</h3>
+          <p>Prazer!</p>
+          <h3>Tanski</h3>
+          <p>Muito legal que nosso primeiro <i>podcast</i> teve pessoas que são do mercado e que põem em prática todo o
+            conhecimento que a professora, que é tutora, traz para desenvolvimento do profissional. E agora nós
+            temos ela, que vai trazer as normas, as regras, as estratégias para que a empresa implemente. Como
+            você
+            definiria segurança do trabalho?</p>
+          <h3>Jocieli</h3>
+          <p>Então, segurança do trabalho são as ações que a gente promove no ambiente de trabalho, com o objetivo
+            de
+            reduzir e eliminar os riscos do ambiente de trabalho, que podem provocar algum tipo de doença ou
+            acidente de trabalho. Então, a segurança nada mais é do que simplesmente as ações que a gente vai
+            fazer
+            todos os dias na empresa, com o objetivo de eliminar todo e qualquer risco do ambiente de trabalho e
+            tornar ele seguro para garantir a integridade e a saúde do nosso trabalhador.</p>
+          <h3>Tanski</h3>
+          <p>A segunda pergunta que estava planejada já está mais ou menos dentro dessa primeira resposta. Por que
+            então a segurança trabalho é tão importante?</p>
+          <h3>Jocieli</h3>
+          <p>Eu vou te trazer um dado aqui da Organização Internacional do Trabalho: só em 2022, a gente teve mais
+            de
+            6 mil acidentes de trabalho no Brasil e mais de 2.500 óbitos, ou seja, em média, a cada 3 horas e 47
+            minutos, alguém perde a vida no ambiente de trabalho. E a cada 100 trabalhadores, ocorrem cerca de 7
+            acidentes. A área da segurança do trabalho é a principal responsável por garantir que a gente tenha a
+            redução desses números, que são tão dramáticos. Então, por isso que a gente tem que ter um olhar muito
+            importante em relação à segurança. É através dos programas que a gente implementa, pela área da
+            segurança, que a gente vai conseguir reduzir esses números, que ainda são muito significativos.</p>
+          <h3>Tanski</h3>
+          <p>Ficou a dúvida: o certo é segurança “no” trabalho ou segurança “do” trabalho?</p>
+          <h3>Jocieli</h3>
+          <p>Ambas têm o mesmo objetivo, que é reduzir todo e qualquer risco no ambiente de trabalho. O que a
+            gente
+            tem de diferente? Vai depender da literatura que tu estás olhando. Eu gosto mais da expressão
+            segurança
+            “do” trabalho, porque, quando a gente pensa em segurança “do” trabalho, a gente pensa “do” trabalho
+            como
+            uma área, assim como a contabilidade, a administração. Então tu falas que o profissional é formado em
+            segurança “do” trabalho. Já segurança “no” trabalho seria única e exclusivamente as ações que a gente
+            implementa no dia a dia. Então eu vou propor alguma melhoria de segurança “no” trabalho. Então acho
+            que
+            essa seria a principal diferença, mas segurança do trabalho e segurança no trabalho têm o mesmo
+            objetivo, que é reduzir todo e qualquer risco que possa colocar a vida e a segurança do nosso
+            trabalhador em risco.</p>
+          <h3>Tanski</h3>
+          <p>A gente fala da vida, mas às vezes pequenos danos também, não é?</p>
+          <h3>Jocieli</h3>
+          <p>Exatamente. Quando a gente fala em segurança, eu te trouxe aqui o número de mortes, mas eu nem quis
+            te
+            trazer o número de afastamentos, é gigantesco. Além disso, a gente também tem doenças que são
+            irreversíveis. A gente pode falar de muitas aqui, pode falar de surdez, a gente pode falar de câncer,
+            a
+            gente pode falar de várias doenças que não têm cura e que o trabalhador vai ter que conviver com isso
+            para o resto da sua vida. Então, quando eu falo de segurança, eu tenho que pensar não só no acidente
+            que
+            pode acontecer e vitimar a pessoa, mas também nos efeitos que isso vai trazer para a vida dela como um
+            todo. Então por isso que, de novo, segurança é muito importante por conta disso, é alguém que está ali
+            olhando e cuidando da tua vida.</p>
+          <h3> Tanski</h3>
+          <p>Nós falamos sobre segurança do trabalho e o nosso objetivo é o ramo óptico. Mas como é que é isso?
+            Como
+            é que são as leis? De forma geral, é só para o ramo óptico?</p>
+          <h3>Jocieli</h3>
+          <p>Não, de forma alguma. Segundo as nossas normas regulamentadoras, que são as legislações que permeiam
+            a
+            área da segurança, toda e qualquer empresa tem que ter programas de segurança do trabalho. Então é
+            isso
+            que a legislação define. Não é só no ramo óptico, não é só indústria. É toda e qualquer empresa que
+            tenha profissionais regidos pela CLT deve obrigatoriamente atender às legislações e às ações de
+            segurança. É obrigatório, não é uma escolha.</p>
+          <h3>Tanski</h3>
+          <p>Reforçando essa visão: nós, na óptica, quando pensamos em segurança no trabalho, pensamos na produção
+            de
+            lentes, na área industrial, na fabricação de armações. Mas o comércio também tem a prestação de
+            serviços, também tem essa segurança no trabalho?</p>
+          <h3>Jocieli</h3>
+          <p>Com certeza. Todas as organizações, como eu já disse, têm essa obrigatoriedade em atender a esse ramo
+            da
+            segurança. O que acontece é que, em grandes empresas e indústrias, usualmente a gente tem uma área que
+            cuida da segurança do trabalho. Então, a gente vê isso de forma mais estruturada, a gente acompanha os
+            profissionais da segurança do trabalho fazendo capacitações, treinamentos. Em empresas menores, às
+            vezes, a gente não tem esse profissional ali dentro o tempo todo. A gente não acompanha isso, mas não
+            significa que ele não tem que atender, muito pelo contrário. Em empresas que não tenham os
+            profissionais
+            da área de segurança ali dentro, em tempo integral, a obrigatoriedade das ações dessa área é do
+            empregador e dos empregados por ele designados.</p>
+          <p>Mas todas as leis, legislações, portarias continuam sendo as mesmas das grandes organizações. Não tem
+            diferenciação alguma em relação a isso.</p>
+          <h3>Tanski</h3>
+          <p>Tu falou em norma regulamentadora, são as famosas NRs?</p>
+          <h3>Jocieli</h3>
+          <p>Exatamente. As normas regulamentadoras, as NRs, seriam a Bíblia da área da segurança do trabalho.
+            Então,
+            assim, muito se ouve e elas são corriqueiras. Hora e outra elas aparecem na mídia, então, todo mundo
+            já
+            ouviu falar de NR, são as nossas normas regulamentadoras, são aquilo que norteia os princípios e as
+            melhorias da nossa área.</p>
+          <h3>Tanski</h3>
+          <p>E que tipo de formação tem que ter o profissional que traz essa construção do ambiente de segurança
+            no
+            trabalho?</p>
+          <h3>Jocieli</h3>
+          <p>Então, a gente tem a nossa NR-4, a nossa Norma Regulamentadora 4, que ela define quais são os
+            profissionais que compõem o SESMT. O SESMT é o Serviço Especializado em Medicina e Segurança do
+            Trabalho. Então, são diversos profissionais de diferentes formações que vão compor essa área. Ela vai
+            ser composta por médico do trabalho, enfermeiro do trabalho, auxiliar técnico de enfermagem do
+            trabalho,
+            engenheiro de segurança do trabalho, assim como eu, e o técnico em segurança do trabalho. Esses são os
+            profissionais do SESMT. A nossa Norma Regulamentadora 4 define que algumas organizações vão precisar
+            compor o SESMT e outras não, e a quantidade de cada um desses profissionais que vai ser contratado vai
+            depender do grau de risco da organização e do tamanho. Então, como eu já disse, algumas organizações,
+            como são menores e têm um grau de risco menor, ou seja, chance de acontecer acidentes e doenças é
+            menor,
+            elas são desobrigadas de compor o SESMT, então elas não vão ter esses profissionais em tempo integral
+            lá
+            dentro da empresa, eles não vão ter esse núcleo, porque a legislação estabelece que só algumas
+            organizações têm obrigatoriedade de compor esse SESMT. Então, sempre que a gente pensar nisso: “eu
+            preciso ou não ter SESMT?”, aí a gente vai lá na NR-4 e vai ver qual é o grau de risco da empresa e o
+            número de empregadores. E lá vai ter definido se ela precisa e quantos e quais desses profissionais
+            ela
+            vai ter que contratar para compor esse SESMT.</p>
+          <h3>Tanski</h3>
+          <p>Por mais que a gente saiba que tu não é uma especialista no ramo óptico, no teu olhar, quais os
+            pontos
+            mais críticos da segurança do trabalho para o profissional de óptica?</p>
+          <h3>Jocieli</h3>
+          <p>Então, vamos pensar que depende do ambiente no qual ele está inserido. Vai sempre depender de qual é
+            o
+            local onde ele está. Quando a gente pensa na produção, a gente tem um processo produtivo dos produtos,
+            assim como qualquer outra empresa. Ali tu vai ter processos produtivos de usinagem, injeção, como
+            qualquer outra organização. Então, ali dentro, vai ser importante que tu se preocupe com os riscos
+            físicos que vão estar presentes ali, como o ruído, a vibração, o calor, e os riscos químicos. Eu diria
+            que esses dois grupos são os mais importantes, porque tu vais ter produtos químicos, tu vais ter
+            processo de pintura. Os químicos geram vapores, gases que podem ser inalados e que são muito
+            prejudiciais à saúde do trabalhador. Além disso, os riscos físicos também: o ruído pode provocar
+            cansaço, surdez com o passar do tempo. Então, eu teria um olhar mais crítico em relação a esses dois
+            grupos. Já quando a gente fala de uma loja, uma prestadora de serviços, é possível que a gente não
+            tenha
+            esses grupos, não é? Porque as atividades são diferentes. Então, nesse caso, a gente deveria ter um
+            olhar mais para os riscos ergonômicos desses trabalhadores que vão passar o dia todo em pé. Então a
+            postura não é adequada muitas vezes, o local de trabalho não está adaptado para o trabalhador, a
+            iluminação inadequada também é um risco ergonômico. A gente vai se preocupar também com os riscos de
+            acidente que podem ocorrer nesse ambiente de trabalho: choque elétrico, algum incêndio. Então, a gente
+            teria um olhar para esses dois grupos. Veja como diferencia os grupos que a gente vai analisar de
+            acordo
+            com o ambiente que a gente está inserido. Então, a segurança é muito interessante, e é óbvio que eu
+            vou
+            defender, do meu ponto de vista exatamente por conta disso, porque, dependendo do ambiente onde tu
+            estas, tu tens uma mudança total nas ações que tu vais tomar e nas situações que tu vais observar, o
+            que
+            é muito significativo e muito interessante para nós.</p>
+          <h3>Tanski</h3>
+          <p>As estratégias acabam sendo dinâmicas de momento a momento, de etapa para etapa.</p>
+          <h3>Jocieli</h3>
+          <p> Exatamente, tu não vais ter um plano de trabalho fechado, “do modo que eu implantei aqui, agora eu
+            vou
+            sair daqui, eu vou na empresa do lado, a mesma empresa, o mesmo CNPJ, e eu vou fazer exatamente
+            igual”.
+            Não! Tu vais ter que ter um olhar diferente de acordo com aquele ambiente no qual tu vais estar
+            inserido.</p>
+          <h3>Tanski</h3>
+          <p>Para minimizarmos os riscos, a gente tende a ter que usar os famosos EPIs e EPCs. Tu podes dizer para
+            a
+            gente o que são?</p>
+          <h3>Jocieli</h3>
+          <p>Posso sim, claro. Os EPIs e os EPCs nada mais são do que dispositivos que são criados com o objetivo
+            de
+            reduzir a chance de o risco acontecer e a consequência dele. Os EPIs, os equipamentos de proteção
+            individual, são um dispositivo único, somente um trabalhador vai usar, então tu só vais proteger
+            aquele
+            trabalhador que estiver portando. Vamos pensar numa luva, por exemplo. Só quem vai se beneficiar do
+            EPI
+            é quem está usando. Já o EPC é o equipamento de proteção coletiva. Então, todos os trabalhadores que
+            estejam naquele ambiente de trabalho onde tem um EPC vão ser protegidos por ele. Por exemplo, um
+            extintor. Um extintor está protegendo todos os trabalhadores que estão ali naquele ambiente onde ele
+            está. Essa é a principal diferença entre eles.</p>
+          <h3>Tanski</h3>
+          <p>Perfeito. Eu ouvi falar que, para uma boa execução do ambiente de segurança no trabalho, é preciso
+            fazer
+            um mapa de risco. Tu poderias descrever para a gente o que é isso?</p>
+          <h3>Jocieli</h3>
+          <p>O mapa de risco é uma representação gráfica do ambiente de trabalho e dos riscos que tem ali. Então,
+            assim, tu vais fazer o levantamento dos riscos de acordo com os setores. Lembra que eu disse que, de
+            acordo com a empresa, mudam os riscos? Mas, de acordo com os setores também, não é? Vamos pensar que
+            na
+            pintura não vai ter os mesmos riscos que no almoxarifado. Então tu vais fazer esse levantamento de
+            riscos, depois, tu vais pegar a planta da empresa e tu vais desenhar esses riscos em cima, através de
+            círculos. Os grupos de risco são cinco e cada um tem uma cor. No mapa de risco, tu vais desenhar um
+            círculo de acordo com o risco presente naquele ambiente. Isso seria nosso mapa de risco, uma forma
+            gráfica e fácil de a gente interpretar.</p>
+          <h3>Tanski</h3>
+          <p>Legal. E por fim, para a gente terminar as perguntas, como é que a gente pode então trazer a
+            responsabilidade... De quem é a responsabilidade da prevenção de acidentes no ambiente de trabalho?
+          </p>
+          <h3>Jocieli</h3>
+          <p>A responsabilidade é de cada um de nós. Eu não posso jamais terceirizar a minha segurança para outra
+            pessoa. Embora eu tenha um técnico, um SESMT, uma CIPA, um empregador que tem que promover a segurança
+            no ambiente de trabalho, é minha responsabilidade cuidar da minha vida. Eu sou um pai, eu sou uma
+            esposa, eu sou um filho. E, assim como eu dirijo no trânsito, assim como eu cuido dos acidentes
+            domésticos, eu também tenho responsabilidade em prevenir os acidentes no ambiente de trabalho. A
+            responsabilidade pela prevenção de acidentes é de cada um de nós.</p>
+          <h3>Tanski</h3>
+          <p>Muito legal!</p>
+          <p>Estivemos aqui então com a nossa superespecialista, tutora do curso TST do Senac, Jocieli da Silva,
+            com
+            quem conversamos sobre segurança do trabalho aplicada à fabricação de lentes oftálmicas. Muito prazer,
+            foi muito bom. Fica à vontade de dar uma palavrinha final.</p>
+          <h3>Jocieli</h3>
+          <p>Gente, gostaria muito de agradecer o convite. Foi um prazer imenso estar aqui. Espero que nos
+            encontremos em outras oportunidades. E lembrem sempre, pessoal: segurança todos os dias e em todos os
+            lugares. Um grande abraço para todo mundo.</p>
+          <h3>Tanski</h3>
+          <p> Eu sou o professor Tanski e foi um prazer termos falado sobre esse tema tão importante: segurança no
+            trabalho aplicada à óptica. Foi um prazer, pessoal.</p>
         </div>
       </div>
     </section>

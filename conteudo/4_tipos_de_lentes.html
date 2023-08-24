@@ -72,7 +72,10 @@
           <div class="menu">
             <h4>Índice de conteúdo interativo:</h4>
             <button data-toggle="modal" data-target="#modal-2">
-              Vídeo 1
+              Tipos de Lentes
+            </button>
+            <button data-toggle="modal" data-target="#modal-1">
+              Teste tipos de Lentes
             </button>
           </div>
           <div class="conteudo container">
@@ -92,9 +95,15 @@
               das lentes esféricas centradas e descentradas, lentes cilíndricas centradas e descentradas, lentes
               prismáticas, lentes bifocais e lentes multifocais. Aprenda suas propriedades ópticas e os benefícios que
               cada tipo oferece aos usuários. </p>
-            <p>Clique ou toque para assistir ao vídeo.</p>
-            <button data-toggle="modal" data-target="#modal-2" class="tutorial-software">
-            </button>
+            <p class="no-print">Clique ou toque para assistir ao vídeo.</p>
+            <iframe class="center-block" width="560" height="315"
+              src="https://www.youtube.com/embed/M4YLb0sTkcg?si=r8gPE_OuWzaB0-29" title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              allowfullscreen></iframe>
+            <p class="no-print">Teste seus conhecimentos</p>
+            <a href="../conteudo/objeto-1/index.html" target="_blank"><button type="button"
+                class="btn btn-primary">Objeto</button></a>
             <h4>Encerramento</h4>
             <p>Ao dominar os diferentes tipos de lentes a partir deste conhecimento, você estará preparado para fornecer
               as melhores soluções em correção visual personalizadas e de alta qualidade. </p>
@@ -102,14 +111,35 @@
         </div>
         <div class="modal fade" id="modal-2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
           <div class="modal-dialog " role="document">
-            <div class="modal-content">
+            <div class="modal-content no-print">
               <div class="modal-header">
                 <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span
                     aria-hidden="true">×</span></button>
-                <h4 class="modal-title" id="myModalLabel">Vídeo 1</h4>
+                <h4 class="modal-title" id="myModalLabel">Tipos de Lentes</h4>
               </div>
               <div class="modal-body">
-                <video></video>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/M4YLb0sTkcg?si=r8gPE_OuWzaB0-29"
+                  title="YouTube video player" frameborder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                  allowfullscreen></iframe>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Fechar</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="modal fade" id="modal-1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+          <div class="modal-dialog " role="document">
+            <div class="modal-content no-print">
+              <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span
+                    aria-hidden="true">×</span></button>
+                <h4 class="modal-title" id="myModalLabel">Objeto Tipos de Lentes</h4>
+              </div>
+              <div class="modal-body">
+                <a href="../conteudo/objeto-1/index.html" target="_blank"><button type="button"
+                    class="btn btn-primary">Objeto</button></a>
               </div>
               <div class="modal-footer">
                 <button type="button" class="btn btn-default" data-dismiss="modal">Fechar</button>

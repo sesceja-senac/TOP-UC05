@@ -1,0 +1,268 @@
+@keyframes fadeInUp {
+    0% {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes efeitinhoDireita {
+    0% {
+        opacity: 0;
+        transform: translateX(20px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+@keyframes efeitinho {
+    from {
+        transform: scale(0.9);
+    }
+
+    to {
+        transform: scale(1.1);
+    }
+}
+
+
+/***************************************************************/
+/************************ conteúdo header **********************/
+/***************************************************************/
+
+.game-associar-colunas {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #fff;
+    font-size: 17px;
+    border-radius: 10px;
+    padding: 1%;
+    box-shadow: 5px 5px 0px #3333335e;
+    margin: 1% auto 1% auto;
+    max-width: 1000px;
+    display: block;
+}
+
+.cabecalho {
+    border-radius: 10px;
+    animation: fadeInUp 1s ease-in-out;
+}
+
+.p-descricao {
+    color: #333;
+    font-size: 20px;
+    line-height: 1.5;
+    animation: fadeInUp 1s ease-in-out;
+}
+
+.logo-lente-descricao {
+    padding: 20px 10px 20px 125px;
+    margin: 1%;
+    border-radius: 10px;
+}
+
+.logo-lente-descricao-img {
+    position: relative;
+}
+
+.logo-lente-descricao-img img {
+    width: 150px;
+    position: absolute;
+    top: -70px;
+    left: -7px;
+}
+
+
+/***************************************************************/
+/************************* conteúdo game ***********************/
+/***************************************************************/
+
+.h1-coluna {
+    font-size: 20px;
+    text-shadow: 5px 5px 5px #333;
+    text-transform: uppercase;
+    margin-top: 2%;
+}
+
+.opcoes {
+    background-color: #065077;
+    color: white;
+    font-size: 17px;
+    border-radius: 10px;
+    padding: 2%;
+    margin: 1%;
+    border: 2px solid #ff9200;
+}
+
+.descricao {
+    background-color: #065077;
+    color: white;
+    font-size: 17px;
+    border-radius: 10px;
+    padding: 2%;
+    margin: 1%;
+    border: 2px solid #ff9200;
+}
+
+.item {
+    display: flex;
+    align-content: center;
+    gap: 10px;
+    align-items: center;
+    padding: 3%;
+    border-radius: 10px;
+    background-color: #fff;
+    color: #065077;
+    border: 2px solid #4598C4;
+    font-weight: bold;
+    animation: efeitinhoDireita 2s ease-in-out;
+    margin-top: 3%;
+    font-size: 17px;
+    text-align: left;
+}
+
+.item:hover {
+    background-color: #3aabd4;
+    border: 2px solid #ff9200;
+}
+
+.item::before {
+    content: "";
+    font-size: 23px;
+    font-weight: bold;
+    border-radius: 100%;
+    padding-inline: 3%;
+}
+
+.item1::before {
+    content: "1"
+}
+
+.item2::before {
+    content: "2"
+}
+
+.item3::before {
+    content: "3"
+}
+
+.item4::before {
+    content: "4"
+}
+
+.item5::before {
+    content: "5"
+}
+
+.item6::before {
+    content: "6"
+}
+
+.item7::before {
+    content: "7"
+}
+
+.item8::before {
+    content: "8"
+}
+
+.item9::before {
+    content: "9"
+}
+
+.resp {
+    display: flex;
+    align-content: center;
+    gap: 10px;
+    align-items: center;
+    padding: 2%;
+    border-radius: 10px;
+    background-color: #fff;
+    color: #065077;
+    border: 2px solid #4598C4;
+    font-weight: bold;
+    animation: efeitinhoDireita 2s ease-in-out;
+    margin-top: 4%;
+    font-size: 17px;
+    text-align: left;
+}
+
+.resp:hover {
+    background-color: #3aabd4 !important;
+    color: white;
+    border: 2px solid #ff9200 !important;
+}
+
+.acertou {
+    background-color: green !important;
+    color: white !important;
+}
+
+/***************************************************************/
+/************************* conteúdo modal ***********************/
+/***************************************************************/
+
+.modal-title {
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.p-modal {
+    font-size: 17px;
+}
+
+.cor-errou {
+    background-color: #9a1d1d;
+    color: white;
+}
+
+.fecha-erro {
+    background-color: white;
+    color: #9a1d1d;
+    border: none;
+}
+
+.fecha-erro:hover {
+    background-color: #011d31;
+    color: #fff;
+}
+
+.cor-acerto {
+    background-color: #1e682b;
+    color: white;
+}
+
+.fecha-acerto {
+    background-color: white;
+    color: #002e08;
+    border: none;
+}
+
+.fecha-acerto:hover {
+    background-color: #011d31;
+    color: #fff;
+}
+
+.cor-final {
+    background-color: #214b69;
+    color: white;
+}
+
+.fecha-final {
+    background-color: white;
+    color: #07304d;
+    border: none;
+}
+
+.fecha-final:hover {
+    background-color: #011d31;
+    color: #fff;
+}

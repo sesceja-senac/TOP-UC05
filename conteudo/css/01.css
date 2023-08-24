@@ -18,7 +18,9 @@ h4 {
     margin-top: 50px;
     margin-bottom: 20px;
 }
-
+.modal-body {
+    color: black !important;
+}
 .modal-btn {
     background-color: #c3c3c330;
     border-radius: 20px;
