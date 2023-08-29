@@ -18,9 +18,11 @@ h4 {
     margin-top: 50px;
     margin-bottom: 20px;
 }
+
 .modal-body {
     color: black !important;
 }
+
 .modal-btn {
     background-color: #c3c3c330;
     border-radius: 20px;
@@ -30,6 +32,47 @@ h4 {
     max-width: 45%;
     margin: 10px;
 }
+
+iframe {
+    margin: auto;
+    width: 560px;
+    height: 315px;
+    display: block;
+}
+
+.bt-objeto1 {
+    background: url(../images/bt_quiz.png) no-repeat;
+    width: 240px;
+    height: 143px;
+    border: none;
+}
+
+.bt-objeto1:hover {
+    transform: scale(1.1);
+    transition: all 0.5s;
+}
+
+.bt-objeto2 {
+    background: url(../images/bt_lensometro.png) no-repeat;
+    width: 359px;
+    height: 117px;
+    border: none;
+}
+
+.bt-objeto2:hover {
+    transform: scale(1.1);
+    transition: all 0.5s;
+}
+
+.painel-objeto {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+
 
 .modal-btn h4 {
     color: black;
@@ -233,5 +276,14 @@ h4 {
 
     .modal-btn {
         max-width: 100%;
+    }
+}
+
+@media (max-width:420px) {
+    iframe {
+        margin: auto;
+        width: 300px;
+        height: 200px;
+        display: block;
     }
 }
